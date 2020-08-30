@@ -291,6 +291,7 @@ a[title='Flaticon']:hover{
     flex-direction: row;
     margin-bottom: 120px;
     align-items: center; 
+    justify-content: center;
     
 }
 
