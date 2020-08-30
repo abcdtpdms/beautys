@@ -77,6 +77,7 @@ h1
     font-family: 'Song Myung', serif;
     font-weight: 500;
     font-size: 40px;
+    margin-top: 100px;
 }
 
 .sample{
@@ -131,7 +132,7 @@ h1
 
 .recent-menu{
     font-family: 'Roboto Slab', serif;
-    font-size: 15px;
+    font-size: 20px;
     weight: 700;
     color: rgb(255, 79, 108);
 
@@ -183,6 +184,7 @@ h1
 
 }
 
+
 .introduction>h2{
  
     font-family: 'Roboto Slab', serif;
@@ -195,10 +197,10 @@ h1
 
     font-family: 'Song Myung', serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 40px;
     color: white;
-
+    line-height: 40px;
 
 }
 
@@ -208,6 +210,7 @@ h1
     font-size: 20px;
     font-style: italic;
     color: white;
+    line-height: 40px;
 
 }
 
@@ -216,6 +219,12 @@ h1
     font-size: 35px;
     margin: 30px 100px;
     color: white;
+}
+
+.value-menu:hover{
+
+    color: pink;
+    -webkit-text-stroke: 0.1px;
 }
 
 .value-section{
@@ -264,6 +273,31 @@ h1
     margin: 0px;
 }
 
+.resume-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+    color: white;
+}
+
+.resume>p{
+    font-family: 'Song Myung', serif;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.englishstyle{
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 50px;
+    color:grey;
+
+}
+
 .footer-comment{
     text-align: center;
     color: white;
@@ -291,7 +325,7 @@ a[title='Flaticon']:hover{
     flex-direction: row;
     margin-bottom: 120px;
     align-items: center; 
-    justify-content: center;
+    justify-content: center;    
     
 }
 
@@ -307,9 +341,9 @@ a[title='Flaticon']:hover{
 .article-name{
     font-family: 'Song Myung', serif;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 200;
-    margin-top=0px;
+    margin-top:0px;
 
 }
 
@@ -321,8 +355,14 @@ a[title='Flaticon']:hover{
 .article-comment{
     font-family: 'Song Myung', serif;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
+    word-spacing: 3px;
+}
+
+.stress{
+    color: rgb(255, 79, 108);
+
 }
 
 .more{
