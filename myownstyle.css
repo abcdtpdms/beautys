@@ -486,7 +486,7 @@ a[title='Flaticon']:hover{
     .highlight{
     
         color: white;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 0.06rem;
         -webkit-text-stroke-color: black;
     
     }
@@ -500,7 +500,7 @@ a[title='Flaticon']:hover{
     
     .type1:hover{
         background-color: greenyellow;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 0.06rem;
         -webkit-text-stroke-color: black;
     
     }
@@ -508,7 +508,7 @@ a[title='Flaticon']:hover{
     .type2:hover{
         background-color: rgb(0, 68, 255);
         color: white;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 0.06rem;
         -webkit-text-stroke-color: black;
     }
     
